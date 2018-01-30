@@ -1,0 +1,108 @@
+-sh-4.2$ ./stringsorter "Zam borp nUtter butter"
+Zam
+borp
+butter
+nUtter
+
+
+-sh-4.2$ ./project0 "dog bark hello was you talking to oh them boys stay nasty floatin like aladin"
+aladin
+bark
+boys
+dog
+floatin
+hello
+like
+nasty
+oh
+stay
+talking
+them
+to
+was
+you
+
+-sh-4.2$ ./stringsorter ""
+
+-sh-4.2$ ./stringsorter
+INPUT ERROR! Expected only 1 argument. Program will now exit. (Surround input in quotes to combine as one argument)
+
+-sh-4.2$ ./stringsorter dfjakldsjf8329jf adslkfj23 jfaisdjflk 2j flkadsjflakj fpoifjasdkljfj23h
+INPUT ERROR! Expected only 1 argument. Program will now exit. (Surround input in quotes to combine as one argument)
+
+
+-sh-4.2$ ./stringsorter "23[]4\23]423]4[\23]4[2\3]4[623]5[23\4]5[23\4]5[\=-=-3453534582-03940"
+
+-sh-4.2$ ./stringsorter "DFAF323dasfzFewFWEFa 2q3rE FZfaf#Q@f asfAF #@f dg45@5252# Aasdf 23$%252A DF32r eAFf2 3@#f #1 #R1 1@ adsfAf2t gaads F32f daDSF"
+A
+Aasdf
+DF
+DFAF
+F
+FZfaf
+Q
+R
+adsfAf
+asfAF
+daDSF
+dasfzFewFWEFa
+dg
+eAFf
+f
+f
+f
+f
+gaads
+q
+r
+rE
+t
+
+-sh-4.2$ ./stringsorter "N W V Q K T L Z X P U S O Y F G H I C M R B A D E J"
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+-sh-4.2$ ./stringsorter "thing stuff otherstuff blarp"
+blarp
+otherstuff
+stuff
+thing
+
+-sh-4.2$ ./stringsorter "thing1stuff3otherstuff,blarp"
+blarp
+otherstuff
+stuff
+thing
+
+-sh-4.2$ ./stringsorter "aand,aAnd,Aand,AAnd"
+AAnd
+Aand
+aAnd
+aand
+
+-sh-4.2$ ./stringsorter i really " don't know " how else to "break" this
+INPUT ERROR! Expected only 1 argument. Program will now exit. (Surround input in quotes to combine as one argument)
