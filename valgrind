@@ -1,0 +1,37 @@
+ Invalid read of size 8
+==28021==    at 0x400A1F: main (in /ilab/users/cjd242/SystemsProgramming/assignment0/ass00)
+==28021==  Address 0x51f9098 is 0 bytes after a block of size 8 alloc'd
+==28021==    at 0x4C29BE3: malloc (vg_replace_malloc.c:299)
+==28021==    by 0x400791: main (in /ilab/users/cjd242/SystemsProgramming/assignment0/ass00)
+==28021==
+==28021== Invalid read of size 1
+==28021==    at 0x4C2DB94: __strcmp_sse42 (vg_replace_strmem.c:845)
+==28021==    by 0x400A33: main (in /ilab/users/cjd242/SystemsProgramming/assignment0/ass00)
+==28021==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==28021==
+==28021==
+==28021== Process terminating with default action of signal 11 (SIGSEGV)
+==28021==  Access not within mapped region at address 0x0
+==28021==    at 0x4C2DB94: __strcmp_sse42 (vg_replace_strmem.c:845)
+==28021==    by 0x400A33: main (in /ilab/users/cjd242/SystemsProgramming/assignment0/ass00)
+==28021==  If you believe this happened as a result of a stack
+==28021==  overflow in your program's main thread (unlikely but
+==28021==  possible), you can try to increase the size of the
+==28021==  main thread stack using the --main-stacksize= flag.
+==28021==  The main thread stack size used in this run was 8388608.
+argc = 2==28021==
+==28021== HEAP SUMMARY:
+==28021==     in use at exit: 19 bytes in 5 blocks
+==28021==   total heap usage: 5 allocs, 0 frees, 19 bytes allocated
+==28021==
+==28021== LEAK SUMMARY:
+==28021==    definitely lost: 0 bytes in 0 blocks
+==28021==    indirectly lost: 0 bytes in 0 blocks
+==28021==      possibly lost: 0 bytes in 0 blocks
+==28021==    still reachable: 19 bytes in 5 blocks
+==28021==         suppressed: 0 bytes in 0 blocks
+==28021== Rerun with --leak-check=full to see details of leaked memory
+==28021==
+==28021== For counts of detected and suppressed errors, rerun with: -v
+==28021== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+Segmentation fault
