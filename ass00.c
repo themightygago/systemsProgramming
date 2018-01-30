@@ -5,11 +5,11 @@
 
 int main (int argc, char ** argv)
 {
-
-
-    printf("argc = %d", argc);
-
-
+  if(argc != 2)
+  {
+    printf("INPUT ERROR! Expected only 1 argument. Program will now exit. (Surround input in quotes to combine as one argument) \n");
+    return 0;
+  }
 
   char currChar;
   int i,j; //index for arrays
@@ -87,15 +87,6 @@ int main (int argc, char ** argv)
       currChar = argv[1][charIndex];
       //printf("%i is wordcount \n", wordCount);
   }
-
-int x = 0;
-x = strcmp(sepArray[0],sepArray[1]);
-printf("%i \n",x);
-/*  int count = 0;
-  while(count<=wordCount)
-  {
-    for(i = )
-  }*/
 
   char* tempStr = malloc(strlen(argv[1]));
   for(i = 0; i< wordCount; i++)
