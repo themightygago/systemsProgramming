@@ -1,4 +1,0 @@
-README
-
-This program takes one input in quotes. Any non-alphabetical letter is considered a delimiter and will be used to separate strings
- the strings are then sorted in alphabetical order and printed back out to the user.
